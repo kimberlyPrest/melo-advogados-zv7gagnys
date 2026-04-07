@@ -29,13 +29,14 @@ export default function Layout() {
         }`}
       >
         <div className="container flex items-center justify-between">
-          <a
-            href="#"
-            className={`font-display font-bold uppercase tracking-widest text-xl z-50 transition-colors ${
-              !isScrolled && !isMobileMenuOpen ? 'text-white' : 'text-brand-primary'
-            }`}
-          >
-            Melo Advogados
+          <a 
+            href="#" 
+            className="z-50 transition-opacity hover:opacity-80">
+          <img
+            src="https://kmbzepwpesrkplkzwhqh.supabase.co/storage/v1/object/public/Logo/favicon.png"
+            alt="Melo Advogados"
+            className="h-8 w-auto"
+          />
           </a>
 
           {/* Desktop Nav */}
