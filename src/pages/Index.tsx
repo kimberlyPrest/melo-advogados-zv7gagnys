@@ -1,10 +1,19 @@
-/* Home Page - Replace this page layout, components, content, behavior with what you want and translate to the language of the user */
+import { HeroSection } from './sections/HeroSection'
+import { ExperienceSection } from './sections/ExperienceSection'
+import { ServicesSection } from './sections/ServicesSection'
+import { ProfessionalsSection } from './sections/ProfessionalsSection'
+import { TestimonialSection } from './sections/TestimonialSection'
+import { ContactSection } from './sections/ContactSection'
+
 const Index = () => {
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">
-        This is a example page ready to be rewritten with your own content
-      </h1>
+    <div className="w-full">
+      <HeroSection />
+      <ExperienceSection />
+      <ServicesSection />
+      <ProfessionalsSection />
+      <TestimonialSection />
+      <ContactSection />
     </div>
   )
 }
