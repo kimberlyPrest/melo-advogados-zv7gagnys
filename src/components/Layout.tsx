@@ -35,7 +35,7 @@ export default function Layout() {
           <img
             src="https://kmbzepwpesrkplkzwhqh.supabase.co/storage/v1/object/public/Logo/favicon.png"
             alt="Melo Advogados"
-            className="h-8 w-auto"
+            className="h-12 w-auto"
           />
           </a>
 
